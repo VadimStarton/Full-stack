@@ -1,7 +1,10 @@
 /*
 String
 
-Iniciavimas kabutemis; "", '', ``
+Iniciavimas kabutemis; "", '', `` (backtick)
+
+Teksto ilgis: kintamasis.lenght
+Teksto ilgis: 'labas'.lenght
 */
 
 console.clear ();
@@ -12,35 +15,34 @@ console.log (txt1);
 const txt2 = "tekstas 2";
 console.log (txt2);
 
-//Vienguba kabute (')
-const kabute1 = 'Vienguba kabute (') .';
+// Vienguba kabute (')
+const kabute1 = "Vienguba kabute (').";
 console.log (kabute1);
 
-//Dviguba kabute (")
-const kabute2 = 'Dviguba kabute (").';
+// Dvyguba kabute (")
+const kabute2 = 'Dvyguba kabute (").';
 console.log (kabute2);
 
-//Vienguba kabute (')  ir dviguba (") kabutes.
-const kabute121 = 'Vienguba (') ir Dviguba (").';
+// Vienguba kabute (')  ir dviguba (") kabutes.
+const kabute121 = 'Vienguba (\') ir Dvyguba (") kabutes.';
 console.log (kabute121);
 
-/Vienguba kabute (')  ir dviguba (\") kabutes + slash.
-const kabute122 = 'Vienguba (') ir Dviguba (\").';
+const kabute122 = "Vienguba (\') ir Dvyguba (\").";
 console.log (kabute122);
 
-const kabute123 = 'Vienguba (') ir Dviguba (\").';
+const kabute123 = 'Vienguba (\') ir Dvyguba (\") kabutes.';
 console.log (kabute123);
 
+const kabute124 = 'Vienguba (\') ir Dvyguba (\") kabutes.';
+console.log (kabute124);
 
 const back = '\\\\';
 console.log (back);
 
-
 // \n = new line (nuseleidzia zemyn)
 // \r = return (grizta i eilutes pradzia)
-
-const formatuotas tekstas = "Labas\nrytas, \n\rLietuva!";
-console.log (formatuotas tekstas);
+const formatuotastekstas = "Labas\n\rrytas, \n\rLietuva!";
+console.log (formatuotastekstas);
 
 /* \n
 Labas
@@ -50,27 +52,74 @@ Labas
 
 /* \r 
 Labas\rrytas\rLietuva
-
+Lietuva
 */
 
-const lrl = "Labas\npm
-rytas,\
+const gg = 'gggggggggggggggggggg\raaa\rbbbbb\rxx';
+console.log(gg);
+
+// aaaggggggggggggggggg
+
+const lrl = "Labas\n\r\
+rytas,\n\r\
 Lietuva!"
 console.log(lrl);
 
-const backtick = `Labas 
-rytas,
+const backtick = `Labas
+rytas
 Lietuva`;
-console.log(backtick)
+console.log(backtick);
 
-console.clear();
+
 
 const vardas ='Chuck'
 console.log(vardas, '=', vardas.lenght, 'simboliai' );
+console.log(vardas, vardas.lenght);
 
 const pavarde = 'Norris'
 
-const fullname = vardas + pavarde;
-console.log(fullname)
+const pilnasVardas = 'Chuck Norris';
+console.log(pilnasVardas, pilnasVardas.length);
 
+const fullname = vardas + ' ' + pavarde;
+console.log(fullname);
 
+// Labas rytas, Lietuva!
+const Labas = 'Labas';
+const parosMetas = 'vakaras';
+const valstybe = 'Latvija';
+
+const lrl2 = labas + ' ' + parosMetas + ", " + valstybe + '!';
+console.log(lrl2);
+
+const lr13 = `${labas} ${parosmetas}, ${valstybe}!`;
+console.log(lr13)
+
+console.clear();
+
+const n1 = 5 + 7;
+console.log(n1);
+
+const n2 = 5 + '7';
+console.log(n2);
+
+const n3 = '5' + 7;
+console.log(n3);
+
+const n4 = '5' + '7';
+console.log(n4);
+
+const n5 = 7 % 5;
+console.log(n5);
+
+const n6 = '7' % 5;
+console.log(n6);
+
+const n7 = 7 % '5';
+console.log(n7);
+
+const n8 = '7' % '5';
+console.log(n8);
+
+const ll = 'labas' % 'l';
+console.log(ll);

@@ -44,5 +44,5 @@ console.log (k);
 const n= NaN
 console.log (n, Nan)
 
-const 
+
 
