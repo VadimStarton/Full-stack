@@ -31,9 +31,18 @@ const n2 = 5;
 const sum = n1 + n2;
 console.log(sum);
 
-const div = n1 / n2
-console.log(div)
+const begalybe = Infinity;
 
-const complex = 2 + 2 * 2;
-console.log(complex)
+const x = 5 / 0
+console.log (x);
+
+const k = -5 / 0
+console.log (k);
+
+// not-a-number = NaN
+
+const n= NaN
+console.log (n, Nan)
+
+const 
 
