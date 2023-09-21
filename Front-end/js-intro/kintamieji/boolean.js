@@ -44,3 +44,6 @@ const e = true && (false || true);
 console.log('e', e)
 
 const f = true && (false || true);
+// const f = false || true;
+// const f = true;
+console.log(f);
