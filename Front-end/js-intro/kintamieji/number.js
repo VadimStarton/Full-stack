@@ -41,8 +41,15 @@ console.log (k);
 
 // not-a-number = NaN
 
-const n= NaN
-console.log (n, Nan)
+const n = NaN
+console.log (n, NaN)
 
 
+const n10 = 25;
+const n11 = 15;
 
+const sum1 = n10 + n11;
+console.log(sum1);
+
+const stringsum = '1' + 1
+console.log(typeof stringsum)

@@ -25,7 +25,7 @@ console.log(treciasPazymys);
 
 const pazymioPozicija = pazymiai.length - 1;
 const paskutinisPazymys = pazymiai [pazymioPozicija]
-console.log(paskutinispazymys);
+console.log(paskutinisPazymys);
 
 // Masyvas pazymiu.
 // Suskaiciuoji pazymiu vidurki ir isvesti kaip sakini:
@@ -35,3 +35,11 @@ console.log(paskutinispazymys);
 // Suformuojat sakini:
 // "Mano aplankytos vietos: Vieta1, Vieta2, Vieta3."
 
+console.log(paskutinisPazymys);
+
+console.log(paskutinisPazymys);
+
+console.log(paskutinisPazymys);
+let pazymys = 12
+pazymys = 8
+console.log(pazymys);
