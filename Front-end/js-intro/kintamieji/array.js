@@ -96,7 +96,7 @@ console.log(name[2]);
 console.log(name[3]);
 console.log(name[4]);
 
-vardas[0] = 'H';
+name[0] = 'H';
 console.log(name);
 
 name = 'Hhuck';
@@ -155,3 +155,7 @@ console.log(sepPazymys);
 const pazymioPozic = pazymiai.length - 1;
 const paskutPazymys = pazymiai [7]
 console.log(paskutPazymys);
+
+console.log(12)
+
+
