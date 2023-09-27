@@ -74,7 +74,7 @@ console.clear();
 
 const vardas = 'Chuck';
 console.log(vardas, '=', vardas.length, 'simboliai');
-console.log(vardas, vardas.lenght);
+console.log(vardas, vardas.length);
 
 const pavarde = 'Norris';
 
@@ -123,3 +123,9 @@ console.log(n8);
 
 const ll = 'labas' % 'l';
 console.log(ll);
+
+//mano testas
+
+const n12 = 'Good ' + 'evening ' + 'my ' + 'friend!';
+console.log (n12)
+
