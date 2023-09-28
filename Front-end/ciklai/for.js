@@ -60,6 +60,15 @@ console.log(numberLine);
 
 console.clear();
 
+function arTestiCikla(index) {
+    if (index <= 10) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
 let i = 0;
 
 for ( let i = 0; i <= 10; ) {
@@ -69,4 +78,42 @@ i += 2;
 }
 console.log(i, 'uz ciklo');
 
+for (let i = 0; arTestiCikla(i); i +=2) {
+    console.log(i, 'ciklas');
+}
+
+console.clear();
+
+const word = 'zodis';
+
+// Raide z;
+// Raide o;
+// Raide d;
+// Raide i;
+// Raide s;
+
+console.log(`raide'; ${word[0]}`);
+console.log(`raide'; ${word[1]}`);
+console.log(`raide'; ${word[2]}`);
+console.log(`raide'; ${word[3]}`);
+console.log(`raide'; ${word[4]}`);
+
+console.clear();
+
+for (let i = 0; i <= 4; i++); {
+    console.log (i, `Raide: ${word[i]}`);
+} 
+
+console.clear();
+
+//  0 1 2 3 4 5 
+const marks = [10, 2, 8, 4, 6];
+
+let totalSum = 0;
+const amount = marks.length;
+
+for (let i = 0; i < amount; i++) {
+    totalSum += marks [i];
+    console.log(`marks[i], '=', totalSum`);
+}
 
