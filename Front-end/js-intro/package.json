@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "palyginimai": "nodemon ./palyginimai/if.js",
+        "for": "nodemon ./ciklai/for.js",
+        "if": "nodemon ./palyginimai/if.js",
         "function": "nodemon ./funkcijos/function.js",
         "object": "nodemon ./kintamieji/object.js",
         "array": "nodemon ./kintamieji/array.js",
