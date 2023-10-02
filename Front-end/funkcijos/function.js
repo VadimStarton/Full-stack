@@ -132,3 +132,13 @@ console.log(studentAverage('Jonas', [10, 2, 8, 4, 6]));
 console.log(studentAverage('Maryte', [10, 9, 8, 7, 6]));
 console.log(studentAverage('Petras', [5, 6, 7, 8, 9]));
 console.log(studentAverage('Ona', [9, 9, 9, 9, 9]));
+
+console.clear;
+
+const text1 = 'Hello, World!';
+console.log (text1);
+function greet() {
+  console.log(text1);  
+}
+text2 = 'pasisveikinamas';
+console.log(greet);  

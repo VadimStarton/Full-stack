@@ -129,3 +129,7 @@ console.log(ll);
 const n12 = 'Good ' + 'evening ' + 'my ' + 'friend!';
 console.log (n12)
 
+console.clear
+
+const text7 = 'Hello World!';
+console.log (text7);
