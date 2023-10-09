@@ -151,3 +151,41 @@ console.log(r8);
 
 r8 = r8.replace('a', 'o');
 console.log(r8);
+
+console.log();
+
+//                 01234567
+const kopustas = 'kopustas';
+console.log(kopustas.slice());
+console.log(kopustas.slice(0));
+console.log(kopustas.slice(0, 0));
+console.log(kopustas.slice(0, 1));
+console.log(kopustas.slice(0, 2));
+console.log(kopustas.slice(0, 3));
+console.log(kopustas.slice(1, 3));
+console.log(kopustas.slice(2, 3));
+console.log(kopustas.slice(-3));
+console.log(kopustas.slice(-6));
+console.log(kopustas.slice(-6, -3));
+console.log(kopustas.slice(3, 6));
+console.log(kopustas);
+
+console.clear();
+
+const pvz = 'Labas rytas suraitytas vistos koja parasytas';
+console.log(pvz.split('x'));
+console.log(pvz.split('a'));
+console.log(pvz.split(''));
+
+const pvz2 = 'vasara';
+const pvz2poSplit = pvz2.split('a');
+console.log(pvz2PoSplit);
+
+console.log('sasasasas'.split('a'));
+console.log('sasasasas'.split('s'));
+//           |       |     
+
+console.log('asd.split('x'));
+console.log('x'.split('x'));
+console.log('asd'.split('asd'));
+

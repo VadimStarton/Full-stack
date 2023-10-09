@@ -15,7 +15,7 @@ for (let i = 0; i < 5; i++) {
 console.log('PAUSE');
 
 //intervalas [-2, 7]
-for (let i = -2; i < 7; i++) {
+for (let i = -2; i <= 7; i++) {
     console.log(i, 'antras');
 }
 
@@ -24,7 +24,7 @@ console.log('FINISH');
 console.clear();
 
 for (let f = 0; f < 7; f++) {
-    const sentence = `The number is: ${f+1},`;
+    const sentence = `The number is: ${f + 1},`;
     console.log(sentence);
 }
 
@@ -33,7 +33,7 @@ console.clear();
 //skaiciai intervale nuo 3 iki 8 imtinai yra: 3 4 5 6 7 8 
 
 
-const start = 0;
+const start = 3;
 const finish = 8;
 
 let numberSeguence = ''; 
@@ -48,15 +48,15 @@ console.log(numberLine);
 console.clear
 
 // const numberSeguence2 = '3, 4, 5, 6, 7, 8';
-
 let numberSeguence2 = start; 
 
 for(let i = start + 1; i <= finish; i++) {
         numberSeguence2 += ', ' + i;
 }
 
-const numberLine1 = `Skaiciai intervale nuo ${start} iki ${finish} imtinai yra:${numberSeguence2}.`;
-console.log(numberLine);
+const numberLine2 = `Skaiciai intervale nuo ${start} iki ${finish} imtinai yra:${numberSeguence2}.`;
+
+console.log(numberLine2);
 
 console.clear();
 
@@ -68,11 +68,8 @@ function arTestiCikla(index) {
     }
 }
 
-
-let i = 0;
-
-for ( let i = 0; i <= 10; ) {
-       console.log(i);
+for (let i = 0; arTestiCikla(i); i += 2) {
+       console.log(i, 'ciklas');
 
 i += 2;
 }
@@ -84,7 +81,11 @@ for (let i = 0; arTestiCikla(i); i +=2) {
 
 console.clear();
 
-const word = 'zodis';
+const word = 'zodelis';
+
+for(let i = 0; i < word.length; i++) {
+    console.log(i, `Raisde; ${word[i]}`);
+}
 
 // Raide z;
 // Raide o;
@@ -117,3 +118,5 @@ for (let i = 0; i < amount; i++) {
     console.log(`marks[i], '=', totalSum`);
 }
 
+const average = totalSum / amount;
+console.log(marks, 'average is', average);
