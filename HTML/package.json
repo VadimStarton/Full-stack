@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "dead-server --host=localhost --port=4604",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Rimantas",
-  "license": "ISC",
+  "author": "Vadim ",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^3.0.1"
   }

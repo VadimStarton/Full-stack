@@ -185,7 +185,55 @@ console.log('sasasasas'.split('a'));
 console.log('sasasasas'.split('s'));
 //           |       |     
 
-console.log('asd.split('x'));
+console.log('asd'.split('x'));
 console.log('x'.split('x'));
 console.log('asd'.split('asd'));
+console.log('labas'.split(''));
+console.log(''.split('x'));
+console.log(''.split(''));
 
+console.clear();
+
+
+console.log('Labas'.startWith('x'));
+console.group('Labas'.startWith('1'));
+console.log('Labas'.startWith('L'));
+console.log('Labas'.startWith(La));
+console.log('Labas'.startWith('La'));
+console.log('Labas'.startWith('Lab'));
+console.log('Labas'.startWith('Labs'));
+console.log('Labas'.startWith('Labas'));
+console.log('Labas'.startWith(''));
+console.log('-------------');
+console.log('Vasara'.endsWith('x'));
+console.log('Vasara'.endsWith('A'));
+console.log('Vasara'.endsWith('a'));
+console.group('Vasara'.endsWith('sa'));
+console.log('Vasara'.endsWith('ra'));
+console.log('Vasara'.endsWith('ar'));
+console.log('Vasara'.endsWith('sara'));
+console.log('Vasara'.endsWith('vasara'));
+console.log('Vasara'.endsWith('Vasara'));
+console.log('Vasara'.endsWith(''));
+console.log(''.endsWith(''));
+
+console.log(clear);
+    
+const pasaka = 'Ryto pasaka: Apie Jonuka ir Gretute.';
+const pasakaUppercase = pasaka.toUpperCase();
+const pasakaLowercase = pasaka.toLowerCase();
+
+console.log(pasaka);
+console.log(pasakaUppercase);
+console.log(pasakaLowercase);
+
+console.clear();
+
+const tarpai = '     labas      ';
+const beTarpu = tarpai.trim();
+console.log(`"${tarpai}"`);
+console.log(`"${beTarpu}"`);
+
+const tarpai2 = '      labas rytas     ';
+console.log(`"${tarpai2}}"`);
+console.log(`"${tarpai2.trim()}"`);

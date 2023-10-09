@@ -85,3 +85,13 @@ console.log('f:', f);
 f.age = 30;
 console.log('e:', e);
 console.log('f:', f);
+
+
+
+const user = {
+    name: 'Jonas',
+    age: 99,
+    'is married': true,
+}
+
+user['is married'];
