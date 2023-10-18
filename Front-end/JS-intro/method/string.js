@@ -179,7 +179,7 @@ console.log(pvz.split(''));
 
 const pvz2 = 'vasara';
 const pvz2poSplit = pvz2.split('a');
-console.log(pvz2PoSplit);
+console.log(pvz2poSplit);
 
 console.log('sasasasas'.split('a'));
 console.log('sasasasas'.split('s'));
@@ -195,15 +195,15 @@ console.log(''.split(''));
 console.clear();
 
 
-console.log('Labas'.startWith('x'));
-console.group('Labas'.startWith('1'));
-console.log('Labas'.startWith('L'));
-console.log('Labas'.startWith(La));
-console.log('Labas'.startWith('La'));
-console.log('Labas'.startWith('Lab'));
-console.log('Labas'.startWith('Labs'));
-console.log('Labas'.startWith('Labas'));
-console.log('Labas'.startWith(''));
+console.log('Labas'.startsWith('x'));
+console.group('Labas'.startsWith('1'));
+console.log('Labas'.startsWith('L'));
+console.log('Labas'.startsWith('La'));
+console.log('Labas'.startsWith('La'));
+console.log('Labas'.startsWith('Lab'));
+console.log('Labas'.startsWith('Labs'));
+console.log('Labas'.startsWith('Labas'));
+console.log('Labas'.startsWith(''));
 console.log('-------------');
 console.log('Vasara'.endsWith('x'));
 console.log('Vasara'.endsWith('A'));
@@ -217,7 +217,7 @@ console.log('Vasara'.endsWith('Vasara'));
 console.log('Vasara'.endsWith(''));
 console.log(''.endsWith(''));
 
-console.log(clear);
+console.clear();
     
 const pasaka = 'Ryto pasaka: Apie Jonuka ir Gretute.';
 const pasakaUppercase = pasaka.toUpperCase();

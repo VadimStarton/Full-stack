@@ -24,7 +24,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
   },
 "keywords": [],
-"author": "Vadim ",
+"author": "Vadim (https://github.com/VadimStaron)",
 "license": "MIT",
 "devDependencies": {
         "nodemon": "^3.0.1"
