@@ -45,8 +45,8 @@ const data = 2023;
 */
 const x = 'Arnoldas';
 const y = 'Shwarznegeris';
-const w = x.substring(0,3) +y.substring(0,3);
-console.log(w)
+const w1 = x.substring(0,3) +y.substring(0,3);
+console.log(w1);
 
 /* Uzduotis nr. 4 Sukurti kintamąjį su stringu: “Once upon a time in hollywood”. 
 Jame visas “o” (didžiąsias ir mažąsias) pakeisti žvaigždutėm “*”.  Rezultatą atspausdinti.*/
@@ -64,7 +64,7 @@ const ccc = 12;
 const ddd = 2;
 
 /* Uzduotis nr. 6 */
-function
+
 
 function getRandom(min,max):
 
