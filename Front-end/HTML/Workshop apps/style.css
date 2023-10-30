@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 450px;
+    height: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.buttons_conteiner {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.button {
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+}
