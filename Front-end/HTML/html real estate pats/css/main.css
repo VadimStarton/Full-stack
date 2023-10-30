@@ -148,8 +148,8 @@ button {
 }
 */
 .neighborhood {
-    width: 65%;
     float: left;
+    width: 60%;
     margin-right: 30px;
 }
 .recommended {
@@ -168,7 +168,7 @@ button {
     width: 100%;
 }
 .neighborhood-listing > .listing-item {
-    width: ((100%-2*30px) / 3);
+    width: calc((100% - 2 * 30px) / 3);
     margin-right: 30px;
     float: left;
     background-color: pink;
