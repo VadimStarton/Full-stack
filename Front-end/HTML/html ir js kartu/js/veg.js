@@ -11,8 +11,8 @@ function dashText(text) {
 }
 
 function formatList(selector, textFormatFunc) {
-    const parentDOM = document.querySelector(selector);
-    const allLiDOM = parentDOM.querySelectorAll('li');
+    const parentDOM = document.querySelector('selector');
+    const allLiDOM = document.querySelectorAll('li');
 
     for (let i = 0; i < allLiDOM.length; i++) {
         const liDOM = allLiDOM[i];

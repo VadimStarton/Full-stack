@@ -267,8 +267,8 @@ object-fit: cover;
     gap: 5px 15px;
     font-size: 14px;
 }
-.recommended-listing .feature {
-}
+/*.recommended-listing .feature {
+}*/
 .recommended-listing .feature > .fa {
     margin-right: 5px;
 }
@@ -292,4 +292,9 @@ object-fit: cover;
 .recommended-listing .bookmark.active > .fa-bookmark,
 .recommended-listing .bookmark.active:hover > .fa-bookmark-o {
     display: block;
+}
+
+img {
+    width: 150px;
+    height:auto;
 }
