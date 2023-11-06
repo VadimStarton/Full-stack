@@ -141,4 +141,4 @@ function greet() {
   console.log(text1);  
 }
 text2 = 'pasisveikinamas';
-console.log(greet);  
+console.log(text2);  

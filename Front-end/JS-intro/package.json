@@ -4,13 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "n-darbai:uzduotis": "nodemon ./n-darbai/uzduotis.js",
         "uzd:pazymiai": "nodemon ./uzd/pazymiai.js",
         "uzd:vardas": "nodemon ./uzd/vardas.js",
         "uzd:tarpai": "nodemon ./uzd/tarpai.js",
+        "method:array-loops": "nodemon ./method/array-loops.js",
         "method:array": "nodemon ./method/array.js",
         "method:string": "nodemon ./method/string.js",
         "method:number": "nodemon ./method/number.js",
+        "object-loops": "nodemon ./ciklas/object-loops.js",
+        "array-loops": "nodemon ./ciklas/array-loops.js",
         "for": "nodemon ./ciklas/for.js",
         "ternary": "nodemon ./palyginimas/ternary.js",
         "if": "nodemon ./palyginimas/if.js",
@@ -21,7 +23,10 @@
         "boolean": "nodemon ./kintamieji/boolean.js",
         "string": "nodemon ./kintamieji/string.js",
         "number": "nodemon ./kintamieji/number.js",
+        "n-darbai": "nodemon ./n-darbai/uzduotis 1.js/uzduotis 2.js/uzduotis 3.js",
         "test": "echo \"Error: no test specified\" && exit 1"
+        
+
   },
 "keywords": [],
 "author": "Vadim (https://github.com/VadimStaron)",

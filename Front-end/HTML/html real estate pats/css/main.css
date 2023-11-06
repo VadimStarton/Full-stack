@@ -62,7 +62,7 @@ main {
     padding: 30px;
     margin-bottom: 30px;
     background-color: #36f;
-    background-image: url(./img/top1.png);
+    background-image: url(./img./top1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,6 +70,10 @@ main {
 .hero-content {
     width: 30%;
     color:#fff;
+}
+.hero-img {
+    width: 1200px;
+    height: 600px;
 }
 .main-title {
     margin-bottom: 75px;

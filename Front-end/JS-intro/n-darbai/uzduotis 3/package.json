@@ -1,0 +1,17 @@
+{
+    "name": "js-intro",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "uzduotis 3": "nodemon ./uzduotis 3/main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+        
+},
+"keywords": [],
+"author": "Vadim (https://github.com/VadimStaron)",
+"license": "MIT",
+"devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
