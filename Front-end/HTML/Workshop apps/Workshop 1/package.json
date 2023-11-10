@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=4601",
+    "dev": "dead-server --host=localhost --port=4608",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
+},
   "keywords": [],
   "author": "Vadim ,(https://github.com/VadimStaron)",
   "license": "MIT",

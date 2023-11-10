@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(150, 46, 231);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+}
+
+.button_conteiner {
+    {margin-top: 100px;
+    width: 100%;
+}
+
+.button {
+    margin-top: 100px;
+    background-color: coral;
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+    cursor: pointer;
+    }
+}

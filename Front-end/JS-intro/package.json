@@ -4,6 +4,13 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "tekstas": "nodemon ./uzd/tekstas.js",
+        "skaiciai": "nodemon ./uzd/skaiciai.js",
+        "rick-roll": "nodemon ./uzd/rick-roll.js",        
+        "spread": "nodemon ./method/spread.js",
+        "class-extends": "nodemon ./funkcijos/class-extends.js",
+        "class": "nodemon ./funkcijos/class.js",
+        "destruct": "nodemon ./kintamieji/destruct.js",
         "uzd:pazymiai": "nodemon ./uzd/pazymiai.js",
         "uzd:vardas": "nodemon ./uzd/vardas.js",
         "uzd:tarpai": "nodemon ./uzd/tarpai.js",
@@ -25,8 +32,6 @@
         "number": "nodemon ./kintamieji/number.js",
         "n-darbai": "nodemon ./n-darbai/uzduotis 1.js/uzduotis 2.js/uzduotis 3.js",
         "test": "echo \"Error: no test specified\" && exit 1"
-        
-
   },
 "keywords": [],
 "author": "Vadim (https://github.com/VadimStaron)",

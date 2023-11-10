@@ -1,14 +1,15 @@
 {
-  "name": "html-ir-js-kartu",
+  "name": "html",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server --host=localhost --port=4604",
+    "dev": "dead-server --host=localhost --port=4614",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Vadim",
-  "license": "ISC",
+},
+  "keywords": [],
+  "author": "Vadim ,(https://github.com/VadimStaron)",
+  "license": "MIT",
   "devDependencies": {
     "dead-server": "^1.0.9"
   }
