@@ -2,8 +2,13 @@
 
 //Sukurkite funkciją kuri priimtų parametrą "name". Jos tikslas atspausdinti naršyklėje tekstą "Labas," ir šalia jo perduotą vardą. Pvz "Labas, Elena".
 //1.
-console.log("Labas, Elena");
 
+let userName = 'Elena';
+function showMessage() {
+    let showMessage = 'Labas,' + userName;
+    alert(message);
+}
+showMessage();
 //2.
 const str1 = 'Labas';
 const str2 = 'Elena';
@@ -47,6 +52,7 @@ function fullname ('John Eddison'); {
  return  ('fullname')
 }
 console.log(fullname, '');
+
 //Parašykite funkciją kuri sugeneruotų 3 random skaičius nuo 0 iki 5 ir atspausdintų konsolėje vienoje eilutėje atskirtus kableliais. Po paskutinio skaičiaus kablelio neturi būti.
 function randomNumber()
 

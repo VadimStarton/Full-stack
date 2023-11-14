@@ -30,7 +30,8 @@
         "boolean": "nodemon ./kintamieji/boolean.js",
         "string": "nodemon ./kintamieji/string.js",
         "number": "nodemon ./kintamieji/number.js",
-        "n-darbai": "nodemon ./n-darbai/uzduotis 1.js/uzduotis 2.js/uzduotis 3.js",
+        "n-darbai": "nodemon ./n-darbai/uzduotis 1.js",
+        "n-darbai": "nodemon ./n-darbai/uzduotis 2.js",
         "test": "echo \"Error: no test specified\" && exit 1"
   },
 "keywords": [],

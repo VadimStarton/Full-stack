@@ -23,11 +23,11 @@ body {
     background-color: #fff;
     z-index: 1;
 }
-/* .main-header > .logo {
+.main-header > .logo {
 }
 .main-header > .btn {
 }
-*/
+
 .main-content {
     padding: 80px;
 }
