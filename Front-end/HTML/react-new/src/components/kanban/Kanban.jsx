@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import style from './Kanban.module.css';
+import style from '../kanban/Kanban.module.css';
 import { KanbanColumn } from './KanbanColumn';
 
 export function Kanban({ tasks, removeTask }) {

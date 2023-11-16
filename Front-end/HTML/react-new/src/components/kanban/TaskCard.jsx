@@ -1,5 +1,5 @@
-import style from './Kanban.module.css';
-import { Tag } from './Tag';
+import style from '../kanban/Kanban.module.css';
+import { Tag } from '../kanban/Tag';
 
 export function TaskCard({ data, removeTask }) {
     const { id, title, description, deadline, tags } = data;
