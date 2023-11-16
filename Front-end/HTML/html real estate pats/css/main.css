@@ -55,26 +55,30 @@ main {
     width: 1200px;
     margin-top: 20px;
     margin-left: calc(50% - 600px);
+    
 }
 .hero {
     width: 100%;
     min-height: 280px;
     padding: 30px;
-    margin-bottom: 30px;
-    background-color: #36f;
-    background-image: url(./img./top1.png);
+    background-color: rgb(118, 197, 82);
+    background-image: url(../img/top1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+}
+.background-image {
+    display: inline-block;
+    width: 1200px;
+    margin-top: 20px;
+    box-sizing: border;
 }
 .hero-content {
     width: 30%;
     color:#fff;
 }
-.hero-img {
-    width: 1200px;
-    height: 600px;
-}
+
 .main-title {
     margin-bottom: 75px;
     color: #fff;
@@ -121,7 +125,7 @@ form> .filter-btn {
     flex-grow: 1;
     border: none;
 }
-::placeholder {
+:placeholder {
     color: red;
     font-size: 15 px;
     font-style: italic;
@@ -136,7 +140,7 @@ form> .filter-btn {
     text-transform: capitalize;
     font-size: 18 px;
     border: 2px solid #ff9376;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #ff9376;
     box-shadow: 0 4px 8px rgba(255, 147, 118, 0.27);
 }
@@ -155,16 +159,19 @@ button {
     float: left;
     width: 60%;
     margin-right: 30px;
+    margin-top: 20px;
 }
 .recommended {
     width: calc(40% - 30px);
     float: right;
+    margin-top: 20px;
 }
 .section-title {
     width: 100%;
     margin-bottom: 20px;
 }
 /*.section-title > .title {
+    
 }
 .section-title > .description {
 }  */
@@ -177,12 +184,13 @@ button {
     float: left;
     background-color: pink;
     position:relative;
-    border-radius:30px;
+    border-radius:15px;
     overflow: hidden;
 }
 .neighborhood-listing > .listing-item.last-item {
 margin-right: 0;
 margin-bottom: 17px;
+
 }
 .neighborhood-listing .item-image {
 width: 100%;
@@ -197,7 +205,7 @@ object-fit: cover;
     top: 0;
     right: 0;
     padding: 15px 10px;
-    border-radius: 0 0 0 20px;
+    border-radius: 0 0 0 10px;
 }
 .neighborhood-listing .item-details {
     position: absolute;
@@ -205,7 +213,7 @@ object-fit: cover;
     left: 15px;
     right: 15px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(3px);
 }
@@ -213,9 +221,9 @@ object-fit: cover;
 }
 .neighborhood-listing .name {
 } */
-.btn {
+.btn-see-all {
     display: inline-block;
-    padding: 10px 20px;
+        padding: 10px 20px;
     line-height: 20px;
     font-size: 18px;
     vertical-align: top;
@@ -226,6 +234,10 @@ object-fit: cover;
     border-radius: 8 px;
     box-shadow: 0px 4px 8px  rgba(255, 147, 118, 0.27);
 }
+.btn:hover {
+    background-color: #fff;
+    color:#ff9376;
+}
 .recommended-listing {
     width: 100%;
 }
@@ -234,8 +246,7 @@ object-fit: cover;
     gap: 20px;
     align-items: center;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 10px;    
     border: 1px solid #ccc;
     border-radius: 20px;
     position: relative;
@@ -281,7 +292,7 @@ object-fit: cover;
     width: 20px;
     height: 30px;
     position: absolute;
-    top: -3;
+    top: -3px;
     right: 30px;
     font-size: 30px;
     color: red;
@@ -299,7 +310,3 @@ object-fit: cover;
     display: block;
 }
 
-img {
-    width: 150px;
-    height:auto;
-}
