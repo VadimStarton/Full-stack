@@ -125,7 +125,7 @@ form> .filter-btn {
     flex-grow: 1;
     border: none;
 }
-:placeholder {
+::placeholder {
     color: red;
     font-size: 15 px;
     font-style: italic;
@@ -170,11 +170,7 @@ button {
     width: 100%;
     margin-bottom: 20px;
 }
-/*.section-title > .title {
-    
-}
-.section-title > .description {
-}  */
+
 .neighborhood-listing {
     width: 100%;
 }
@@ -186,6 +182,7 @@ button {
     position:relative;
     border-radius:15px;
     overflow: hidden;
+    cursor:pointer;
 }
 .neighborhood-listing > .listing-item.last-item {
 margin-right: 0;
@@ -216,14 +213,11 @@ object-fit: cover;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(3px);
+    
 }
-/*.neighborhood-listing .location {
-}
-.neighborhood-listing .name {
-} */
 .btn-see-all {
     display: inline-block;
-        padding: 10px 20px;
+    padding: 10px 20px;
     line-height: 20px;
     font-size: 18px;
     vertical-align: top;
@@ -246,21 +240,18 @@ object-fit: cover;
     gap: 20px;
     align-items: center;
     width: 100%;
-    padding: 10px;    
+    padding: 10px;
+    margin-bottom: 20px;    
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
 }
-.recommended-listing > .listing-item:last-child {
-    margin-bottom: 0;
-}
-.recommended-listing .item-image {
-    width: 25%;
-    height: 120px;
-    object-fit: cover;
+.recommended-listing > .item-image {
+    width: 100%;
+    height: 250px;
     object-position: center;
-    border-radius: 10px;
-}
+    object-fit: cover;
+    }
 .recommended-listing .item-details {
     display: flex;
     flex-direction: column;
@@ -283,8 +274,7 @@ object-fit: cover;
     gap: 5px 15px;
     font-size: 14px;
 }
-/*.recommended-listing .feature {
-}*/
+
 .recommended-listing .feature > .fa {
     margin-right: 5px;
 }
@@ -310,3 +300,19 @@ object-fit: cover;
     display: block;
 }
 
+.recommended-listing > .listing-item:last-child {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.listing-item:last-child > .item-image {
+    width: 100%;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    }
