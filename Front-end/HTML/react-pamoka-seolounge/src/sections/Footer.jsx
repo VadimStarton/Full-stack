@@ -1,7 +1,7 @@
 import { FaTwitter, FaInstagram, FaFacebook } from 'react-icons/fa';
 import { TbDog } from 'react-icons/tb';
 import dog from '../assets/dog.svg';
-import { DogIcon } from './DogIcon';
+import { DogIcon } from '../components/DogIcon';
 
 export function Footer() {
     return (
