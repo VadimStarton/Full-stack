@@ -254,13 +254,9 @@ button {
     border: 1px solid #ccc;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
 }
-.recommended-listing > .item-image {
-    width: 100%;
-    height: 120px;
-    object-position: center;
-    object-fit: cover;
-}
+
 .recommended-listing > .listing-item > img{
     width: 250px;
     height: 100px;
@@ -315,9 +311,3 @@ button {
     display: block;
 }
 
-.recommended-listing > .listing-item:last-child > img{
-    width: 250px;
-    height: 250px;
-    object-position: center;
-    object-fit: cover;
-}
