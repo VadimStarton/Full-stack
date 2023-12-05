@@ -1,0 +1,7 @@
+function bonusTime(salary, bonus) {
+if (bonus === true) {
+  return '\£' + `${salary * 10}`
+  }
+  return salary 
+}
+console.log(bonusTime(100, true))
