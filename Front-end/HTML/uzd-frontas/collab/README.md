@@ -1,6 +1,6 @@
 # Full-stack
 
-# Petty
+# Collab
 
 _website design project_
 
@@ -10,9 +10,9 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/46-grupe-real-estate/
 
-Design: [PETTY](https://www.figma.com/file/yPsEIIUrcWpHSU7beVXsSs/Petty--%F0%9F%90%B6----Pet-heating-solution-web-design-concept-(Community)?type=design&node-id=0-1&mode=design)
+
+Design: https://www.figma.com/file/9mV6rCFOEd1ptuZ4JBovVS/Collab-landing-page-design-(Community)?type=design&node-id=1-271&mode=design
 
 ## 🎯 Project features/goals
 
