@@ -8,7 +8,7 @@ body  {
 }
 .box {     
     width: 450px;
-    height: 400px;
+    height: 450px;
     border-radius: 5px;
     background-color: #fff;              
     place-items: center;
@@ -22,7 +22,7 @@ body  {
     color:rgba(50, 50, 50, 0.888);      
 }
 .conteiners { 
-    margin-top: -70px;     
+    margin-top: -50px;     
 }
 .input1 {
     display: grid;
@@ -36,6 +36,9 @@ body  {
     border:solid 2px rgb(60, 0, 255);
     color:rgba(50, 50, 50, 0.888);    
 }
+.buttons_conteiner { 
+    margin-top: -50px;         
+}
 .btn1 {
     margin: 15px;
     padding: 7px;    
@@ -44,7 +47,6 @@ body  {
     color:rgb(60, 0, 255);
     cursor: pointer;       
 }
-
 .btn2 {
     margin: 15px;
     padding: 7px;    
@@ -69,11 +71,10 @@ button:hover {
     line-height: 12px;
     background-color: rgba(195, 195, 195, 0.691); 
 }
-
 .kmi_scale h1 {
     font-size: 0.75em;
     font: 1em sans-serif;
-    color: rgb(255, 255, 2);
+    color: rgb(2, 2, 255);
     margin-top: 6px;
 }
 .kmi_scale h2 {
@@ -86,7 +87,7 @@ button:hover {
     font-size: 0.9em;
     font: 1em sans-serif;
     margin-top: 8px;    
-    color:rgb(255, 239, 134);
+    color:rgb(238, 255, 0);
 }
 .kmi_scale h4 {
     font-size: 0.9em;

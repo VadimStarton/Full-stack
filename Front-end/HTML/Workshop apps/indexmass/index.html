@@ -8,31 +8,31 @@
     <title>KMI</title>
 </head>
 <body>
-    <div class= "box">
+    <div class="box">
         <div class="header">
             <header> KMI skaičiuotuvas </header>
         </div>
         <form class="conteiners">        
-            <span> Ūgis (cm) </span>       
+            <label for='Ūgis'>Ūgis (cm)</label>       
             <div class="input1">                
-                <input type="number" id="ugis" min="0"  step="1.0" max="300"value="0">
+                <input type="number" id="Ūgis" min="0"  step="1.0" max="300"value="0">
             </div>
             
-            <span> Svoris (kg) </span>
+            <label for='Svoris'>Svoris (kg)</label>
             <div class="input2">                
-                <input type="number" id="svoris" min="0"  step="0.10" max="500" value="0">
+                <input type="number" id="Svoris" min="0"  step="0.10" max="500" value="0">
             </div>
-            
-            <div class = "buttons_conteiner">
-                <button id="btn1" class="btn1"> Ištrinti viska </button>
-                <button id="btn2" class="btn2"> Skaičiuoti </button>
-            </div>                    
-        </form>
-        <div class="output">
+        </form>    
+        <div class = "buttons_conteiner">
+            <button class="btn1"> Ištrinti </button>
+            <button class="btn2"> Skaičiuoti </button>
+        </div>                    
+        
+        <section class="output">
             <span> Jūsų KMI rezultatas </span>
-            <p id="KMI">0</p>
-            <p id="info">N/D</p>
-        </div>
+            <p id="kmi">0</p>
+            <p id="desc">N/D</p>
+        </section>
         <section  class="kmi_scale">
             <div>
                 <h1> Masės trūkumas 
@@ -48,12 +48,11 @@
                     <br>&gt30 </br>
                 </h4>
             </div>
-            </sectio>
+        </section>
 
+        <script src="script.js"></script>
 
-
-    </div>
+    </div>    
     
-    <script src="script.js"></script>
 </body>
 </html>
