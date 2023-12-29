@@ -2,19 +2,23 @@ const kmiText = document.getElementById('kmi');
 const descText = document.getElementById('desc');
 const form = document.querySelector('form');
 
-
+function onFormReset() {
+    kmiText.TextContent = 0;
+    kmiText.className = '';
+    descText.textContent = 'N/D';
+}
 function onformbtn(e) {
     e.preventDefault();
 
-    const Ūgis = parseFloat(form.input1.value);
+    const Ugis = parseFloat(form.input1.value);
     const Svoris = parseFloat(form.input2.value);
 
-    if (isNaN(Svoris) || isNaN(Ūgis) || Svoris <= 0 || Ūgis <= 0) {
+    if (isNaN(Svoris) || isNaN(Ugis) || Svoris <= 0 || Ugis <= 0) {
     alert ("Prašome įvesti skaičius"); return;
     }
 
-    const ŪgisMetrais = Ūgis/100;
-    const kmi = Svoris / Math.pow(ŪgisMetrais, 2);
+    const UgisMetrais = Ugis/100;
+    const kmi = Svoris / Math.pow(UgisMetrais, 2);
     const  desc = interpretkmi(kmi);
 
     kmiText.textContent = output.toFixed(2);
