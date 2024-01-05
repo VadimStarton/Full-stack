@@ -91,14 +91,14 @@ main {
 }
 .form> .filter {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     background-color: #fff;
     border-radius: 8px;
 }
 form> .filter-btn {
     padding: 8px 35px;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     border-radius: 10px;
     gap: 10px;
     color: #8080ff;
@@ -110,8 +110,8 @@ form> .filter-btn {
 .form> .search {
     padding: 3px;
     display: flex;
-    width: 337px;
-    gap: 5px;
+    width: 100%;
+    gap: 25px;
     background-color: #fff;
     border-right: #8080ff;
     border-radius: 8px;
@@ -121,11 +121,12 @@ form> .filter-btn {
     border-radius: 8px;
 }
 
-.input {
-    width: 450px;
+.input id {
+    width: 500px;
     padding: 15px 0;
     font-size: 20px;
-    flex-grow: 100px;
+    flex-grow: 100;
+    border: none;
     border-radius: 8px;
 }
 
@@ -138,7 +139,7 @@ form> .filter-btn {
     border-radius: 8px;
 }
 .search-btn {    
-    padding: 0px 5px;
+    padding: 10px 50px;
     color:#fff;
     text-decoration: none;
     text-transform: capitalize;
@@ -153,7 +154,7 @@ form> .filter-btn {
     margin-top: 20px;
 }
 .recommended {
-    width: calc(35% - 30px);
+    width: calc(40% - 30px);
     float: right;
     margin-top: 20px;
 }
@@ -163,7 +164,7 @@ form> .filter-btn {
 }
 
 .neighborhood-listing {
-    width: 105%;
+    width: 100%;
 }
 .neighborhood-listing > .listing-item {
     width: calc((100% - 2 * 30px) / 3);
@@ -209,10 +210,12 @@ object-fit: cover;
 }
 .btn-see-all {
     display: inline-block;
-    margin-top: -2px;
+    right: 20px;
+    margin-top: 3px;
     height: 44px;
     width: 145px;
-    border-radius: 8px;    
+    border-radius: 8px;
+    border-style: hidden;
     padding: 10px 20px;
     line-height: 20px;
     font-size: 18px;
@@ -222,7 +225,7 @@ object-fit: cover;
     background-color: #ff9376;
     color: #ffffff;
     border-radius: 8 px;
-    box-shadow: 0px 2px 4px  rgba(255, 147, 118, 0.27);
+    box-shadow: 0px 4px 8px  rgba(255, 147, 118, 0.27);
 }
 
 button {
@@ -235,7 +238,7 @@ button {
 }
 .btn:hover {
     background-color: #fff;
-    color:#ffffff;
+    color:#ff9376;
     border-radius: 8px;
 }
 .recommended-listing {

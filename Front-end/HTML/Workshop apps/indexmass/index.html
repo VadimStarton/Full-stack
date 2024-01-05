@@ -13,23 +13,23 @@
             <header> KMI skaičiuotuvas </header>
         </div>
         <form class="conteiners">        
-            <label for='Ūgis'>Ūgis (cm)</label>       
+            <label for="Ūgis">Ūgis (cm)</label>       
             <div class="input1">                
                 <input type="number" id="Ūgis" min="0"  step="1.0" max="300"value="0">
             </div>
             
-            <label for='Svoris'>Svoris (kg)</label>
+            <label for="Svoris">Svoris (kg)</label>
             <div class="input2">                
                 <input type="number" id="Svoris" min="0"  step="0.10" max="500" value="0">
             </div>
         </form>    
         <div class = "buttons_conteiner">
-            <button class="btn1"> Ištrinti </button>
-            <button class="btn2"> Skaičiuoti </button>
-        </div>                    
+            <button class="btn1" id="reset"> Ištrinti </button>
+            <button class="btn2" id="calc"> Skaičiuoti </button>
+        </div>                   
         
         <section class="output">
-            <span> Jūsų KMI rezultatas </span>
+            <h1> Jūsų KMI rezultatas </h1>
             <p id="kmi">0</p>
             <p id="desc">N/D</p>
         </section>
