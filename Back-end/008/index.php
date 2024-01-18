@@ -27,7 +27,7 @@ $kas = null;
 
 var_dump($kas2 ?? 8 === null);
 
-echo '<br>'
+echo '<br>';
 
 // for ($k = 1; $k <= 15; $k++) {
 
@@ -43,6 +43,8 @@ echo '<br>'
 //    }
 
 echo '<br>';
+
+$k = 1;
 
 for ($k - 1; $k <= 7; $k++) {
     switch($k) {
