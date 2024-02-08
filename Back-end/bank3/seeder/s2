@@ -1,0 +1,57 @@
+<?php
+echo "seeder started\n";
+$members = [
+    (object) [
+        "id" => "1",
+        "name" => "Arunas",
+        "lastname" => "Notaitas",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "97053788778",
+        "balance" => 150,
+    ],
+    (object) [
+        "id" => "2",
+        "name" => "Arturas",
+        "lastname" => "Lapsinskas",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "39704522222",
+        "balance" => 5100.52,
+    ],
+    (object) [
+        "id" => "3",
+        "name" => "Valentas",
+        "lastname" => "Vaidaitis",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "39005355555",
+        "balance" => 732.25,
+    ],
+    (object) [
+        "id" => "4",
+        "name" => "Vasare",
+        "lastname" => "Azuolaite",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "38205399999",
+        "balance" => 100,
+    ],
+    (object)  [
+        "id" => "5",
+        "name" => "Lukas",
+        "lastname" => "Jonaitis",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "48807775555",
+        "balance" => 1853,
+    ],
+    (object)  [
+        "id" => "6",
+        "name" => "Odeta",
+        "lastname" => "Katiene",
+        "AC" => "LT" . rand(100000000000000000, 999999999999999999),
+        "PC" => "58705555895",
+        "balance" => 105,
+    ],
+
+];
+file_put_contents(__DIR__ . '/../data/members.json', json_encode($members));
+file_put_contents(__DIR__ . '/../data/members-index.json', json_encode(count($members) + 1));
+
+echo "seeder finished\n";

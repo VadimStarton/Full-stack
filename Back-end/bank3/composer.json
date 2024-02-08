@@ -1,0 +1,17 @@
+{
+    "name": "v/bank",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\DB\\":"App/DB/",
+            "Bank\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "",
+            "email": "petras@gmail.com"
+        }
+    ],
+    "require": {}
+}
